@@ -14,6 +14,11 @@ body {
     background-color: #f9f9f9;
 }
 
+header {
+    background-color: #a0af4c;
+    padding: 20px;
+}
+
 @media only screen and (max-width: 1080px) {
 }
 @media only screen and (max-width: 768px) {
