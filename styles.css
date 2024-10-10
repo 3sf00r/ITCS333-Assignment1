@@ -27,6 +27,13 @@ main {
     padding: 20px;
     background-color:antiquewhite;
 }
+section {
+    background-color: #f7f7f7;
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 
 @media only screen and (max-width: 1080px) {
