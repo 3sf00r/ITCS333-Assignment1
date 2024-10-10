@@ -5,3 +5,16 @@
     text-align: center;
     
 }
+
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 1080px) {
+}
+@media only screen and (max-width: 768px) {
+}
