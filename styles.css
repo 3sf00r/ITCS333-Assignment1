@@ -24,6 +24,10 @@ nav li {
     margin-right: 20px;
 }
 
+#resources ul li{
+    text-align: left;
+}
+
 body {
     margin: 0 auto;
     max-width: 87%;
