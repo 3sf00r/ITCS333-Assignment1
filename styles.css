@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    
 }
 
 header {
@@ -24,8 +23,14 @@ nav li {
     margin-right: 20px;
 }
 
-#resources ul li{
-    text-align: left;
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #082585;
+    text-decoration: underline;
 }
 
 body {
@@ -44,12 +49,31 @@ main {
     padding: 20px;
     background-color:antiquewhite;
 }
+
 section {
     background-color: #f7f7f7;
     width: 70%;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
 }
 
 .gallery-grid {
@@ -65,17 +89,53 @@ section {
     border-radius: 10px;
 }
 
-h1, h2, h3 {
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 10px;
-} 
+#resources ul li{
+    text-align: left;
+}
 
-button:hover {
-    background-color: #3e8e41;
+#schedule ul li{
+    text-align: left;
 }
 
 @media only screen and (max-width: 1080px) {
+    body{
+
+    }
+    section{
+        width: 85%;
+    }
+    nav ul {
+        
+    }
+    nav li {
+
+    }
+    img {
+
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media only screen and (max-width: 768px) {
+    body{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    img {
+        height: 200px;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
